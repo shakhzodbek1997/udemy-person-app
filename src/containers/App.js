@@ -3,11 +3,12 @@ import classes from './App.css';
 import Persons from '../components/Persons/Persons';
 import Cockpit from '../components/Cockpit/Cockpit'
 
+
 class App extends Component {
     state = {
         persons: [
             {id: 'asfa1', name: 'Max', age: 28},
-            {id: 'vasdf1', name: 'Manu', age: 29},
+            {id: 'vasdf1', name: 'Manuel', age: 29},
             {id: 'asdf11', name: 'Stephanie', age: 26}
         ],
         otherState: 'some other value',
